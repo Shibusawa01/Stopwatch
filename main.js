@@ -12,10 +12,11 @@
 
   function countUp() {
     const d = new Date(Date.now() - startTime + elapsedTime);
+    const h = String(d.getHours()).padStart(2, '0');
     const m = String(d.getMinutes()).padStart(2, '0');
     const s = String(d.getSeconds()).padStart(2, '0');
     const ms = String(d.getMilliseconds()).padStart(3, '0');
-    timer.textContent = `${m}:${s}.${ms}`;
+    timer.textContent = `${h}:${m}:${s}.${ms}`;
 
     timeoutId = setTimeout(() => {
       countUp();
@@ -65,7 +66,7 @@
       return;
     }
     setButtonStateInitial();
-    timer.textContent = '00:00.000';
+    timer.textContent = '00:00:00.000';
     elapsedTime = 0;
   });
 }
