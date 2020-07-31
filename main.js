@@ -6,7 +6,7 @@
   const stop = document.getElementById('stop');
   const reset = document.getElementById('reset');
 
-  let startTime;
+  let startTime = 0;
   let timeoutId;
   let elapsedTime = 0;
 
