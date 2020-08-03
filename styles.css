@@ -1,19 +1,19 @@
 body{
   font-family:'Courier New',monospace;
   font-size:14px;
-  background:rgb(255, 233, 233);
+  background:rgb(246, 246, 246);
 }
 
 .container{
   margin:20px auto;
   width:450px;
-  background:rgb(235, 255, 230);
+  background:rgb(186, 255, 168);
   padding:20px;
   text-align:center;
 }
 
 #timer {
-  background:rgb(225, 229, 255);
+  background:rgb(255, 255, 255);
   height:250px;
   line-height: 250px;
   font-size:60px;
