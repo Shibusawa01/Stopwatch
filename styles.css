@@ -23,13 +23,18 @@ body{
 }
 
 .btn{
-  width: 100px;
-  height:45px;
+  width: 48px;
+  height: 48px;
   line-height:45px;
-  background:rgb(219, 0, 0);
   font-weight:bold;
   cursor: pointer;
   user-select: none;
+  text-align: center;
+  margin: auto;
+}
+
+.btn img{
+  width: 100%;
 }
 
 .controls{
